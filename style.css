@@ -1,6 +1,6 @@
 /**
-Theme Name: Astra Child
-Author: Brainstorm Force
+Theme Name: Garris
+Author: GlobalSpex   
 Author URI: http://wpastra.com/about/
 Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
 Version: 1.0.0
@@ -9,3 +9,110 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: astra-child
 Template: astra
 */
+:root {
+   --accent-color: #d63768;
+   --light: #fff;
+   --dark: #090b0e;
+   --gray: #f2f2f2;
+}
+
+/********** TYPOGRAPHY ************/
+
+h1 * {
+   font-size: 50px!important;
+   line-height: 1.8!important;
+   color: var(--accent-color)!important;
+}
+
+.entry-content h1, 
+.entry-content h2, 
+.entry-content h3, 
+.entry-content h4, 
+.entry-content h5, 
+.entry-content h6, 
+.fl-heading * {
+    font-weight: 800;
+    color: var(--accent-color)
+}
+
+.lighter-heading .fl-heading span {
+   font-weight: 300;
+   color: var(--dark);
+}
+
+.decorative-heading .fl-heading span {
+   font-weight: 400;
+   letter-spacing: 3px;
+   font-size: 18px;
+   color: var(--dark)
+}
+
+
+/********** BUTTONS **********/
+.fl-button {
+   padding: 20px 30px;
+   border-radius: 0!important;
+   font-weight: 400;
+   border-color: none;
+}
+
+.default-button .fl-button {
+   background-color: var(--accent-color)!important;
+   border: none!important;
+}
+
+.default-button .fl-button * {
+   color: var(--light)!important;
+   border: none!important;
+}
+
+.transparent-button .fl-button {
+   background: transparent!important;
+   border: 1px solid var(--light)!important;
+}
+
+.transparent-button .fl-button * {
+   color: var(--light)!important;
+}
+
+
+/****** ROW BACKGROUNDS ******/
+
+.content-row_padded .secondary-heading .fl-heading * {
+   color: var(--dark);
+}
+
+
+.white-bg .fl-row-content-wrap {
+   background-color: var(--light);
+}
+
+
+.accent-bg .fl-row-content-wrap {
+   background: var(--accent-color);
+}
+
+.gray-bg .fl-row-content-wrap {
+   background-color: var(--gray);
+}
+
+/*********** ROWS ************/
+
+.content-row .fl-row-content-wrap {
+   padding: 50px 20px;
+}
+
+.content-row_no-padding .fl-row-content-wrap {
+   padding: 0;
+}
+
+.content-row_padded .fl-row-content-wrap {
+   padding: 0px 0px;
+}
+
+.content-row_padded .fl-module-photo .fl-module-content {
+   margin-top: 30px!important;
+   margin-right: 0!important;
+   margin-bottom: 30px!important;
+   margin-left: 0!important;
+}
