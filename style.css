@@ -14,6 +14,7 @@ Template: astra
    --light: #fff;
    --dark: #090b0e;
    --gray: #f2f2f2;
+   --medium-gray: #efefef;
 }
 
 /********** TYPOGRAPHY ************/
@@ -66,6 +67,15 @@ h1 * {
    border: none!important;
 }
 
+.dark-button .fl-button {
+   background-color: var(--dark)!important;
+   border: none!important;
+}
+
+.dark-button .fl-button * {
+   color: var(--light)!important;
+}
+
 .transparent-button .fl-button {
    background: transparent!important;
    border: 1px solid var(--light)!important;
@@ -92,8 +102,57 @@ h1 * {
    background: var(--accent-color);
 }
 
+.accent-bg .fl-heading *,
+.accent-bg .fl-rich-text {
+   color: var(--light)!important;
+}
+
 .gray-bg .fl-row-content-wrap {
    background-color: var(--gray);
+}
+
+.page-callout .fl-col .fl-col-content::after {
+   background-image: linear-gradient(360deg, rgba(255, 255, 255, 0.61) 0%, rgba(255, 255, 255, 0) 100%)!important; 
+}
+
+/*********** HEADER AND FOOTER *************/
+header .fl-row-content-wrap {
+   background-color: var(--light)!important;
+   box-shadow: rgb(0 0 0 / 17%) 0px 0px 24px 0px!important;
+}
+
+header .fl-theme-builder-header-shrink-row-top {
+   background-color: var(--light);
+}
+
+header .menu li a {
+   text-transform: uppercase;
+   color: var(--dark);
+   padding: 15px!important;
+}
+
+header .menu > li.current-menu-item > a,
+header .menu > li > a:hover {
+   background-color: var(--accent-color);
+   color: var(--light);
+}
+
+footer {
+
+}
+
+footer .fl-separator {
+   border-color: var(--accent-color)!important;
+   border-top-width: 1px!important;
+   border-top-style: solid!important;
+}
+
+footer .fl-heading * {
+   color: var(--accent-color)!important;
+}
+
+footer .footer-cta .fl-heading * {
+   color: var(--light)!important;
 }
 
 /*********** ROWS ************/
@@ -115,4 +174,41 @@ h1 * {
    margin-right: 0!important;
    margin-bottom: 30px!important;
    margin-left: 0!important;
+}
+
+/*********** TESTIMONIALS *************/
+.testimonials .testimonial .fl-col-content {
+   background-color: var(--medium-gray);
+   border-bottom: var(--accent-color);
+   border-bottom-width: 10px;
+   border-style: solid;
+   border-width: 0;
+}
+
+.testimonials .headshot .fl-photo img {
+   width: 120px;
+   height: 120px;
+   object-fit: cover;
+}
+
+.testimonials .testimonial-text .fl-rich-text {
+   font-style: italic;
+}
+
+.testimonials .testimonial-author .fl-rich-text {
+   font-style: normal;
+   font-weight: 600;
+}
+
+/*********** ELEMENTS ************/
+.highlight-photo .fl-photo-img {
+   border-style: solid;
+   border-width: 0;
+   background-clip: border-box;
+   border-color: var(--light);
+   border-top-width: 12px;
+   border-right-width: 12px;
+   border-bottom-width: 12px;
+   border-left-width: 12px;
+   box-shadow: 0px 0px 55px 0px rgb(0 0 0 / 31%);
 }
