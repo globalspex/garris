@@ -261,3 +261,9 @@ footer .footer-cta .fl-heading * {
    background-color: var(--light)!important;
    color: var(--dark)!important;
 }
+
+/*********** FAQS ************/
+
+.faqs .uabb-faq-question-label {
+color: #626161;
+}
