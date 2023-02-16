@@ -261,9 +261,3 @@ footer .footer-cta .fl-heading * {
    background-color: var(--light)!important;
    color: var(--dark)!important;
 }
-
-/*********** FAQS ************/
-
-.fl-node-6bnkmacpzug2 .uabb-faq-item-active > .uabb-faq-questions .uabb-faq-question-label {
-color: #000000 !important;
-}
