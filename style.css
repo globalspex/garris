@@ -261,3 +261,14 @@ footer .footer-cta .fl-heading * {
    background-color: var(--light)!important;
    color: var(--dark)!important;
 }
+
+@media (max-width: 544px)
+{
+
+h1, .entry-content h1 {
+
+font-size: 30px !important;
+line-height: 1.1px !important;
+}
+
+}
