@@ -27,6 +27,13 @@ h1 * {
    color: var(--accent-color)!important;
 }
 
+.fl-rich-text a {
+   text-decoration: underline;
+   text-underline-position: under;
+   color: var(--accent-color);
+}
+
+
 .entry-content h1, 
 .entry-content h2, 
 .entry-content h3, 
@@ -122,6 +129,8 @@ h1 * {
    color: var(--light)!important;
 }
 
+/** Gray Background Rows **/
+
 .gray-bg .fl-row-content-wrap {
    background-color: var(--gray);
 }
@@ -130,6 +139,8 @@ h1 * {
 .gray-bg > .fl-col-content {
    background-color: var(--gray);
 }
+
+/** Callout below banner of the homepage **/
 
 .page-callout .fl-heading * {
    font-size: 24px;
