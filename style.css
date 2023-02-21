@@ -22,8 +22,8 @@ Template: astra
 /********** TYPOGRAPHY ************/
 
 h1 * {
-   font-size: 46px!important;
-   line-height: 1.8!important;
+   font-size: 46px;
+   line-height: 1.8;
    color: var(--accent-color)!important;
 }
 
@@ -265,9 +265,10 @@ footer .footer-cta .fl-heading * {
 @media only screen and (max-width: 544px)
 {
 
-h1, .entry-content h1 {
-font-size: 36px !important;
-line-height: 1.2px !important;
-}
+   h1 *, 
+   .entry-content h1 {
+      font-size: 36px!important;
+      line-height: 1.5;
+   }
 
 }
