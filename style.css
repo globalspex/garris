@@ -273,7 +273,7 @@ footer .footer-cta .fl-heading * {
    color: var(--dark)!important;
 }
 
-@media only screen and (max-width: 544px)
+@media only screen and (max-width: 600px)
 {
 
    h1 *, 
