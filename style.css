@@ -216,12 +216,13 @@ footer .footer-cta .fl-heading * {
 }
 
 /*********** TESTIMONIALS *************/
+
 .testimonials .testimonial .fl-col-content {
    background-color: var(--medium-gray);
    border-bottom: var(--accent-color);
    border-bottom-width: 10px;
    border-style: solid;
-   border-width: 0;
+ 
 }
 
 .testimonials .headshot .fl-photo img {
@@ -237,6 +238,22 @@ footer .footer-cta .fl-heading * {
 .testimonials .testimonial-author .fl-rich-text {
    font-style: normal;
    font-weight: 600;
+}
+
+
+/*********** FAQS *************/
+
+.faqs .uabb-faq-item .uabb-faq-questions {
+color: var(--light) !important;
+background: var(--accent-color) !important;
+}
+
+.faqs .uabb-faq-before-text .uabb-faq-question-label {
+	color:var(--light) !important;
+}
+
+.faqs .uabb-faq-item .uabb-faq-content {
+	background: var(--medium-gray)!important;
 }
 
 /*********** ELEMENTS ************/
