@@ -298,5 +298,10 @@ background: var(--accent-color) !important;
       font-size: 36px!important;
       line-height: 1.5;
    }
+	
+.gray-bg > .fl-col-content {
+   background-color: var(--gray);
+	margin: 0px 0px 10px 0px !important;
+}
 
 }
