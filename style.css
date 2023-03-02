@@ -138,6 +138,7 @@ h1 * {
 
 .gray-bg > .fl-col-content {
    background-color: var(--gray);
+	margin: 5px 5px 5px 5px !important;
 }
 
 /** Callout below banner of the homepage **/
